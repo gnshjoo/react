@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.my-div {
+  background-color: aqua;
+  font-size: 15px;
+}
