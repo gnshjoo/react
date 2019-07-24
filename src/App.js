@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MyComponent from "./MyComponents";
 import "./App.css";
 
 class App extends Component {
@@ -14,14 +15,7 @@ class App extends Component {
       Moztransition: "all",
       msTransition: "all"
     };
-    return (
-      <div className="my-div">
-        <h1>리액트 안녕!</h1>
-        <h2>{text}</h2>
-        {condition ? "보여주세요" : null}
-        <div style={style} />
-      </div>
-    );
+    return <MyComponent name="React" age={30} />;
   }
 }
 
