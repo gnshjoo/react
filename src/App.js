@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MyComponent from "./MyComponents";
+import EventPractice from "./EventPractice";
 import "./App.css";
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
       Moztransition: "all",
       msTransition: "all"
     };
-    return <MyComponent name="React" age={30} />;
+    return <EventPractice />;
   }
 }
 
